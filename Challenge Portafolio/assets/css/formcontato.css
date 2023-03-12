@@ -1,0 +1,105 @@
+.formcontato {
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    background: #eaf2fd;
+}
+
+.formcontato__contacto {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.formcontato--esquerda {
+    background: url(../img/contact_image.png);
+    width: 464px;
+    height: 593px;
+}
+
+.formcontato__text {
+    width: 730px;
+    height: 600px;
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontato__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.formcontato__subtext {
+    width: 750px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.formcontato__form {
+    width: 680px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.formcontato__input {
+    width: 656px;
+    height: 56px;
+    background: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.formcontato__linea {
+    width: 660px;
+    height: 1px;
+    background: #c8c8c8;
+    position: relative;
+    bottom: 1.3rem;
+}
+
+.formcontato__textarea {
+    width: 656px;
+    height: 56px;
+    background: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.formcontato__botao {
+    width: 144px;
+    height: 51px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    background: #2a7ae4;
+}
+
+.formcontato__botao:hover {
+    color: #464646;
+    background: #04db20;
+    border: 1px solid #04db20;
+}

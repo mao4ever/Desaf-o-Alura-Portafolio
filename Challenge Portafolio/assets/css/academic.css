@@ -1,0 +1,68 @@
+.academic {
+	width: -webkit-fill-available;
+	height: 581px;
+	background: #eaf2fd;
+	display: flex;
+	flex-direction: column;
+}
+
+.academic__title,.experience__section__title {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	text-align: center;
+	color: #464646;
+	padding: 3rem;
+}
+
+.academic__courses {
+	width: -webkit-fill-available;
+	padding: 0 16px 0 16px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.academic__courses__box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.academic__courses__list {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+}
+.academic__courses__list li{
+	padding: .2rem;
+}
+.academic__courses__item__img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #ffffff;
+	width: 450px;
+	height: 305px;
+}
+.academic__courses__item__img img{
+	width: 250px;
+	height: 205px;
+}
+.academic__courses__item__title {
+	color: #464646;
+	font-family: Raleway;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.academic__courses__item__subtitle {
+	color: #464646;
+	font-family: Raleway;
+	font-style: normal;
+	font-size: 16px;
+	font-weight: 500;
+}

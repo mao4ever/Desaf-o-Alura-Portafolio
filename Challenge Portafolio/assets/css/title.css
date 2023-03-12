@@ -1,0 +1,73 @@
+.title {
+    background: var(--cor-de-fundo);
+    width: -webkit-fill-available;
+    height: 368px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title__div {
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 1rem;
+}
+
+.title__profile {
+    width: 350px;
+    height:350px;
+    background: url(../img/mario.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 200px;
+}
+
+.title__bio {
+    width: 751px;
+    height: 122px;
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+}
+
+.title__bio--nombre:hover {
+    background-color: chartreuse;
+}
+
+.title__subsection {
+    width: 751px;
+    height: 52px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.title__network{
+    color: #464646;
+    display: flex;
+    
+}
+
+.title__network__item{
+    color: #464646;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    
+}
+
+.title__network__item:nth-child(-n+2){
+padding-right: 1.5rem;
+}
+
+.title__network__item:nth-child(-n+3){
+padding-right: 1.5rem;
+}
